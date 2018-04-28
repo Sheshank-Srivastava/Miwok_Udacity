@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.iamtanya.miwak.MainActivity">
+    <include layout="@layout/toolbar"/>
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="@string/number"
+        android:textColor="@color/textcolor"
+        android:padding="16dp"
+        android:background="@color/number_color"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="@string/family"
+        android:textColor="@color/textcolor"
+        android:padding="16dp"
+        android:background="@color/family_color"
+        android:textSize="18sp"/>
+    <TextView
+
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="@string/color"
+        android:textColor="@color/textcolor"
+        android:padding="16dp"
+        android:background="@color/color_color"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/phrase"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="@string/phrase"
+        android:padding="16dp"
+        android:textColor="@color/textcolor"
+        android:background="@color/phrase_color"
+        android:textSize="18sp"/>
+
+</LinearLayout>

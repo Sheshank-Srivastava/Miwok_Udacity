@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">MIwak</string>
+    <string name="number">Number</string>
+    <string name="family">Family Member</string>
+    <string name="color">Color</string>
+    <string name="phrase">Phrase</string>
+<!--defalut number-->
+    <string name="one_def">One</string>
+    <string name="two_def">Two</string>
+    <string name="three_def">Three</string>
+    <string name="four_def">Four</string>
+    <string name="five_def">Five</string>
+    <string name="six_def">Six</string>
+    <string name="seven_def">Seven</string>
+    <string name="eight_def">Eight</string>
+    <string name="nine_def">Nine</string>
+    <string name="ten_def">Ten</string>
+    <!--Miwok Number-->
+    <string name="one_miw">lutti</string>
+    <string name="two_miw">otiiko</string>
+    <string name="three_miw">tolookosu</string>
+    <string name="four_miw">oyyisa</string>
+    <string name="five_miw">massokka</string>
+    <string name="six_miw">temmokka</string>
+    <string name="seven_miw">kenekaku</string>
+    <string name="eight_miw">kawinta</string>
+    <string name="nine_miw">wo’e</string>
+    <string name="ten_miw">na’aacha</string>
+<!--family Default-->
+    <string name="fam_one_def">father</string>
+    <string name="fam_two_def">mother</string>
+    <string name="fam_three_def">son</string>
+    <string name="fam_four_def">daughter</string>
+    <string name="fam_five_def">older brother</string>
+    <string name="fam_six_def">younger brother</string>
+    <string name="fam_seven_def">older sister</string>
+    <string name="fam_eight_def">younger sister</string>
+    <string name="fam_nine_def">grandmother</string>
+    <string name="fam_ten_def">grandfather</string>
+    <!--family miwok-->
+    <string name="fam_one_miw">әpә</string>
+    <string name="fam_two_miw">әṭa</string>
+    <string name="fam_three_miw">angsi</string>
+    <string name="fam_four_miw">tune</string>
+    <string name="fam_five_miw">taachi</string>
+    <string name="fam_six_miw">chalitti</string>
+    <string name="fam_seven_miw">teṭe</string>
+    <string name="fam_eight_miw">kolliti</string>
+    <string name="fam_nine_miw">ama</string>
+    <string name="fam_ten_miw">paapa</string>
+<!--color Default-->
+    <string name="col_one_def">red</string>
+    <string name="col_two_def">green</string>
+    <string name="col_three_def">brown</string>
+    <string name="col_four_def">gray</string>
+    <string name="col_five_def">black</string>
+    <string name="col_six_def">white</string>
+    <string name="col_seven_def">dusty yellow</string>
+    <string name="col_eight_def">mustard yellow</string>
+    <!--color miwok-->
+    <string name="col_one_miw">weṭeṭṭi</string>
+    <string name="col_two_miw">chokokki</string>
+    <string name="col_three_miw">ṭakaakki</string>
+    <string name="col_four_miw">ṭopoppi</string>
+    <string name="col_five_miw">kululli</string>
+    <string name="col_six_miw">kelelli</string>
+    <string name="col_seven_miw">ṭopiisә</string>
+    <string name="col_eight_miw">chiwiiṭә</string>
+<!--phrase Default-->
+    <string name="phr_one_def">Where are you going?</string>
+    <string name="phr_two_def">What is your name?</string>
+    <string name="phr_three_def">My name is...</string>
+    <string name="phr_four_def">How are you feeling?</string>
+    <string name="phr_five_def">I’m feeling good.</string>
+    <string name="phr_six_def">Are you coming?</string>
+    <string name="phr_seven_def">Yes, I’m coming.</string>
+    <string name="phr_eight_def">I’m coming.</string>
+    <string name="phr_nine_def">Let’s go.</string>
+    <string name="phr_ten_def">Come here.</string>
+    <!--phrase miwok-->
+    <string name="phr_one_miw">minto wuksus</string>
+    <string name="phr_two_miw">tinnә oyaase"nә</string>
+    <string name="phr_three_miw">oyaaset...</string>
+    <string name="phr_four_miw">michәksәs?</string>
+    <string name="phr_five_miw">kuchi achit</string>
+    <string name="phr_six_miw">әәnәs"aa?</string>
+    <string name="phr_seven_miw">hәә" әәnәm</string>
+    <string name="phr_eight_miw">әәnәm</string>
+    <string name="phr_nine_miw">yoowutis</string>
+    <string name="phr_ten_miw">әnni"nem</string>
+</resources>

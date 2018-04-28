@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="default_number">
+            <item>@string/one_def</item>
+            <item>@string/two_def</item>
+            <item>@string/three_def</item>
+            <item>@string/four_def</item>
+            <item>@string/five_def</item>
+            <item>@string/six_def</item>
+            <item>@string/seven_def</item>
+            <item>@string/eight_def</item>
+            <item>@string/nine_def</item>
+            <item>@string/ten_def</item>
+        </string-array>
+
+        <string-array name="miwok_number">
+            <item>@string/one_miw</item>
+            <item>@string/two_miw</item>
+            <item>@string/three_miw</item>
+            <item>@string/four_miw</item>
+            <item>@string/five_miw</item>
+            <item>@string/six_miw</item>
+            <item>@string/seven_miw</item>
+            <item>@string/eight_miw</item>
+            <item>@string/nine_miw</item>
+            <item>@string/ten_miw</item>
+        </string-array>
+
+    <!--family name-->
+    <string-array name="default_family">
+        <item>@string/fam_one_def</item>
+        <item>@string/fam_two_def</item>
+        <item>@string/fam_three_def</item>
+        <item>@string/fam_four_def</item>
+        <item>@string/fam_five_def</item>
+        <item>@string/fam_six_def</item>
+        <item>@string/fam_seven_def</item>
+        <item>@string/fam_eight_def</item>
+        <item>@string/fam_nine_def</item>
+        <item>@string/fam_ten_def</item>
+    </string-array>
+
+    <string-array name="miwok_family">
+        <item>@string/fam_one_miw</item>
+        <item>@string/fam_two_miw</item>
+        <item>@string/fam_three_miw</item>
+        <item>@string/fam_four_miw</item>
+        <item>@string/fam_five_miw</item>
+        <item>@string/fam_six_miw</item>
+        <item>@string/fam_seven_miw</item>
+        <item>@string/fam_eight_miw</item>
+        <item>@string/fam_nine_miw</item>
+        <item>@string/fam_ten_miw</item>
+    </string-array>
+
+    <!--color-->
+    <string-array name="default_color">
+        <item>@string/col_one_def</item>
+        <item>@string/col_two_def</item>
+        <item>@string/col_three_def</item>
+        <item>@string/col_four_def</item>
+        <item>@string/col_five_def</item>
+        <item>@string/col_six_def</item>
+        <item>@string/col_seven_def</item>
+        <item>@string/col_eight_def</item>
+        <!--<item>@string/col_nine_def</item>-->
+        <!--<item>@string/col_ten_def</item>-->
+    </string-array>
+
+    <string-array name="miwok_color">
+        <item>@string/col_one_miw</item>
+        <item>@string/col_two_miw</item>
+        <item>@string/col_three_miw</item>
+        <item>@string/col_four_miw</item>
+        <item>@string/col_five_miw</item>
+        <item>@string/col_six_miw</item>
+        <item>@string/col_seven_miw</item>
+        <item>@string/col_eight_miw</item>
+        <!--<item>@string/col_nine_miw</item>-->
+        <!--<item>@string/col_ten_miw</item>-->
+    </string-array>
+    <!--phrase name-->
+    <string-array name="default_phrase">
+        <item>@string/phr_one_def</item>
+        <item>@string/phr_two_def</item>
+        <item>@string/phr_three_def</item>
+        <item>@string/phr_four_def</item>
+        <item>@string/phr_five_def</item>
+        <item>@string/phr_six_def</item>
+        <item>@string/phr_seven_def</item>
+        <item>@string/phr_eight_def</item>
+        <item>@string/phr_nine_def</item>
+        <item>@string/phr_ten_def</item>
+    </string-array>
+
+    <string-array name="miwok_phrase">
+        <item>@string/phr_one_miw</item>
+        <item>@string/phr_two_miw</item>
+        <item>@string/phr_three_miw</item>
+        <item>@string/phr_four_miw</item>
+        <item>@string/phr_five_miw</item>
+        <item>@string/phr_six_miw</item>
+        <item>@string/phr_seven_miw</item>
+        <item>@string/phr_eight_miw</item>
+        <item>@string/phr_nine_miw</item>
+        <item>@string/phr_ten_miw</item>
+    </string-array>
+
+</resources>
