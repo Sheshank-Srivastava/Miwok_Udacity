@@ -10,13 +10,13 @@ import android.widget.ImageView;
  */
 
 public class Word  {
+    private static String color;
     private String default_word;
     private String  miwok_word;
     private int imageView;
-    private int color;
 
 
-    public Word(String default_word, String miwok_word,int imageView,int color) {
+    public Word(String default_word, String miwok_word,int imageView,String color) {
         this.default_word = default_word;
         this.miwok_word = miwok_word;
         this.imageView = imageView;
@@ -24,10 +24,10 @@ public class Word  {
     }
 
 
-   public Word(String default_word, String miwok_word,int color) {
+   public Word(String default_word, String miwok_word,String color) {
         this.default_word = default_word;
         this.miwok_word = miwok_word;
-        this.color = ContextCompat.getColor(null,color);
+        this.color = color;
    }
 
     public void setDefault_word(String default_word) {
@@ -38,7 +38,7 @@ public class Word  {
         this.miwok_word = miwok_word;
     }
 
-    public void setColor(int color) {
+    public void setColor(String color) {
         this.color = color;
     }
 
@@ -59,7 +59,7 @@ public class Word  {
         return imageView;
     }
 
-    public int getColor() {
+    public static String getColor() {
         return color;
     }
 }

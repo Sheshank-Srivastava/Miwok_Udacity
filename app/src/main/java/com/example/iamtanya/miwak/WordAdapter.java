@@ -1,6 +1,7 @@
 package com.example.iamtanya.miwak;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.media.Image;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
@@ -38,7 +39,7 @@ public class WordAdapter extends RecyclerView.Adapter<WordAdapter.MyViewHolder> 
         holder.def_name.setText(arrayList.get(position).getDefault_word());
         holder.miw_name.setText(arrayList.get(position).getMiwok_word());
         holder.imageView.setImageResource(arrayList.get(position).getImageView());
-
+        holder.objectContainer.setBackgroundColor(Color.parseColor(Word.getColor()));
     }
 
     @Override
@@ -50,12 +51,13 @@ public class WordAdapter extends RecyclerView.Adapter<WordAdapter.MyViewHolder> 
         TextView def_name;
         TextView miw_name;
         ImageView imageView;
-
+        LinearLayout objectContainer;
         public MyViewHolder(View itemView) {
             super(itemView);
            def_name = itemView.findViewById(R.id.default_text);
            miw_name = itemView.findViewById(R.id.miwok_text);
            imageView = itemView.findViewById(R.id.image);
+           objectContainer = itemView.findViewById(R.id.listitem);
         }
     }
 }

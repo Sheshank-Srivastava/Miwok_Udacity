@@ -2,6 +2,8 @@ package com.example.iamtanya.miwak;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -10,6 +12,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -48,14 +51,14 @@ public class category extends AppCompatActivity {
         Word model;
         int length;
         int[] image;
-        View view = findViewById(R.id.listitem);
-
+       String color = null;
+        LinearLayout objectContainer=  findViewById(R.id.listitem);
         switch (value){
             /**
              *  Number Category
              */
             case  1:
-                view.setBackgroundColor(R.color.number_color);
+                color ="#FD8E09";
                 image=new int[]{
                         R.drawable.number_one,
                         R.drawable.number_two,
@@ -75,13 +78,14 @@ public class category extends AppCompatActivity {
                              getResources().getStringArray(R.array.default_number)[i],
                              getResources().getStringArray(R.array.miwok_number)[i],
                              image[i],
-                             R.color.number_color
-                     );
+                             color
+                             );
                      arrayList.add(model);
                  }
 
                 break;
             case  2:
+                color ="#379237";
                 image=new int[]{
                         R.drawable.family_father,
                         R.drawable.family_mother,
@@ -101,13 +105,14 @@ public class category extends AppCompatActivity {
                             getResources().getStringArray(R.array.default_family)[i],
                             getResources().getStringArray(R.array.miwok_family)[i],
                             image[i],
-                            R.color.family_color
+                            color
                     );
                     arrayList.add(model);
                 }
 
                 break;
             case  3:
+                color = "#8800A0";
                 image=new int[]{
                         R.drawable.color_red,
                         R.drawable.color_green,
@@ -126,20 +131,21 @@ public class category extends AppCompatActivity {
                             getResources().getStringArray(R.array.default_color)[i],
                             getResources().getStringArray(R.array.miwok_color)[i],
                             image[i],
-                            R.color.color_color
+                            color
                     );
                     arrayList.add(model);
                 }
 
                 break;
             case  4:
+                color ="#16AFCA";
                 toolbar.setTitle("Phrase");
                 length = getResources().getStringArray(R.array.default_phrase).length;
                 for(int i=0;i<length;i++){
                     model = new Word(
                             getResources().getStringArray(R.array.default_phrase)[i],
                             getResources().getStringArray(R.array.miwok_phrase)[i],
-                            R.color.phrase_color
+                            color
                     );
                     arrayList.add(model);
                 }
